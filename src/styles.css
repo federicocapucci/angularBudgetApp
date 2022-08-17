@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+}
+
+.fontTitle{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(120,90,60,0.6);
+    border-radius: 4px;
+    height: 40px;
+}
+
+.textError{
+    font-size: 1.2rem;
+}
